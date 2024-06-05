@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
+
 
 .subtitleFont {
   font-family: 'Lora', serif;
@@ -79,7 +81,7 @@ h6,
   font-style: normal;
 }
 .bg-primary {
-  background-color: #f3c649 !important;
+  background-color: #fac51c !important;
 }
 .bg-success {
   background-color: #90a878 !important;
@@ -94,8 +96,8 @@ h6,
   background-color: #f28281 !important;
 }
 .btn-primary {
-  background-color: #f3c649;
-  border-color: #f3c649;
+  background-color: #fac51c;
+  border-color: #fac51c;
   color: #ffffff;
 }
 .btn-primary:hover,
@@ -104,14 +106,14 @@ h6,
 .btn-primary:active,
 .btn-primary.active {
   color: #ffffff;
-  background-color: #e1a90f;
-  border-color: #e1a90f;
+  background-color: #c59704;
+  border-color: #c59704;
 }
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #ffffff !important;
-  background-color: #e1a90f !important;
-  border-color: #e1a90f !important;
+  background-color: #c59704 !important;
+  border-color: #c59704 !important;
 }
 .btn-secondary {
   background-color: #bfcecb;
@@ -215,8 +217,8 @@ h6,
 }
 .btn-primary-outline {
   background: none;
-  border-color: #c9970d;
-  color: #c9970d;
+  border-color: #ac8404;
+  color: #ac8404;
 }
 .btn-primary-outline:hover,
 .btn-primary-outline:focus,
@@ -224,14 +226,14 @@ h6,
 .btn-primary-outline:active,
 .btn-primary-outline.active {
   color: #ffffff;
-  background-color: #f3c649;
-  border-color: #f3c649;
+  background-color: #fac51c;
+  border-color: #fac51c;
 }
 .btn-primary-outline.disabled,
 .btn-primary-outline:disabled {
   color: #ffffff !important;
-  background-color: #f3c649 !important;
-  border-color: #f3c649 !important;
+  background-color: #fac51c !important;
+  border-color: #fac51c !important;
 }
 .btn-secondary-outline {
   background: none;
@@ -334,7 +336,7 @@ h6,
   border-color: #f28281 !important;
 }
 .text-primary {
-  color: #f3c649 !important;
+  color: #fac51c !important;
 }
 .text-success {
   color: #90a878 !important;
@@ -361,36 +363,36 @@ h6,
   background-color: #f28281;
 }
 .btn-social {
-  border-color: #f3c649;
+  border-color: #fac51c;
 }
 .btn-social:hover {
-  background: #f3c649;
+  background: #fac51c;
 }
 .mbr-company .list-group-item.active .list-group-text {
-  color: #f3c649;
+  color: #fac51c;
 }
 .mbr-footer p a,
 .mbr-footer ul a {
-  color: #f3c649;
+  color: #fac51c;
 }
 .mbr-footer-content li::before,
 .mbr-footer .mbr-contacts li::before {
-  background: #f3c649;
+  background: #fac51c;
 }
 .mbr-footer-content li a:hover,
 .mbr-footer .mbr-contacts li a:hover {
-  color: #f3c649;
+  color: #fac51c;
 }
 .lead a,
 .lead a:hover {
-  color: #f3c649;
+  color: #fac51c;
 }
 .lead blockquote {
-  border-color: #f3c649;
+  border-color: #fac51c;
 }
 .mbr-plan-header.bg-primary .mbr-plan-subtitle,
 .mbr-plan-header.bg-primary .mbr-plan-price-desc {
-  color: #ffffff;
+  color: #fef8e4;
 }
 .mbr-plan-header.bg-success .mbr-plan-subtitle,
 .mbr-plan-header.bg-success .mbr-plan-price-desc {
@@ -410,7 +412,7 @@ h6,
 }
 .mbr-small-footer a,
 .mbr-gallery-filter li:hover {
-  color: #f3c649;
+  color: #fac51c;
 }
 .scrollToTop_wraper {
   display: none;
@@ -538,6 +540,9 @@ section.form .container {
 #header3-0 H3 {
   color: #ffffff;
 }
+#header3-0 .mbr-section-title {
+  font-size: 46px;
+}
 #header5-0 .mbr-section-title {
   color: #ffffff;
   text-align: right;
@@ -545,6 +550,15 @@ section.form .container {
 #header5-0 .mbr-section-lead {
   color: #9c9a9a;
 }
+#features2-2 .striped .mbr-cards-col:nth-child(2n+1) {
+  background-color: #000000;
+}
+#footer1-0 P {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+}
+
 
 #menu-0 .hide-buttons .nav-btn {
   display: none !important;
@@ -621,7 +635,17 @@ section.form .container {
   color: #000000;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
+  text-align: center;
 }
+#msg-box3-0 .mbr-section-title P {
+  font-size: 48px;
+}
+#footer1-0 P {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+}
+
 #menu-0 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -692,6 +716,12 @@ section.form .container {
 #form1-0 .form-control-label {
   color: #232323;
 }
+#footer1-0 P {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+}
+
 #menu-0 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -765,4 +795,12 @@ section.form .container {
 }
 #header5-0 .mbr-section-lead {
   color: #9c9a9a;
+}
+#header5-0 .btn {
+  font-size: 24px;
+}
+#footer1-0 P {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  color: #ffffff;
 }
