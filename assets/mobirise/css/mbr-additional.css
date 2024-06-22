@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
 
 
 .subtitleFont {
@@ -627,18 +626,21 @@ section.form .container {
 #menu-0 .close-icon::after {
   background-color: #ffffff;
 }
-#msg-box3-0 .mbr-section-title,
-#msg-box3-0 p {
-  color: #000;
+#testimonials2-b .mbr-section-title {
+  color: #ffffff;
 }
-#msg-box3-0 .lead {
+#testimonials2-b .mbr-section-subtitle {
+  color: #ffffff;
+}
+#testimonials2-b .mbr-author-name {
+  color: #ffffff;
+  font-size: 22px;
+}
+#testimonials2-b .card-block {
   color: #000000;
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  text-align: center;
 }
-#msg-box3-0 .mbr-section-title P {
-  font-size: 48px;
+#testimonials2-b .card-block B {
+  font-family: 'Oswald', sans-serif;
 }
 #footer1-0 P {
   font-family: 'Montserrat', sans-serif;
